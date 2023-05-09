@@ -623,7 +623,8 @@ button:focus {
 }
 
 ._2KlOO {
-    width: 100%
+    width: 100%;
+    border-radius: 50%
 }
 
 ._3RfhZ {
@@ -789,7 +790,7 @@ button:focus {
     ._3-zUs {
         display: flex;
         flex-direction: row-reverse;
-        align-items: flex;
+        align-items: center;
         padding-top: 5em;
         padding-bottom: 5em
     }
@@ -825,7 +826,7 @@ button:focus {
 @media only screen and (min-width:992px) {
     ._1m93P {
         flex: 1 1 0;
-        margin-right: 20em
+        margin-right: 10em
     }
 
     ._3-zUs:not(._2jSvF) ._1m93P {
@@ -1894,7 +1895,7 @@ button:focus {
 
 @media only screen and (min-width:992px) {
     ._37jKU {
-        width: 70%;
+        width: 85%;
         margin-bottom: 4em
     }
 }
