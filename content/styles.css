@@ -933,7 +933,8 @@ button:focus {
     }
 
     ._3u9Lq ._1Jvfx {
-        position: absolute;
+        position: inherit;
+        line-height: 50px;
         top: 23em;
         right: 0;
         left: 0
