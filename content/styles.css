@@ -921,6 +921,7 @@ button:focus {
 
     ._2jSvF ._1Jvfx {
         display: flex;
+        justify-content: space-between;
         margin-top: 2em
     }
 }
