@@ -179,9 +179,9 @@
                                  <div class="_1C8rA">
                                     <div class="_1FYIv">
                                        <div class="_2LiuL">
-                                          <div class="_3WPZR"><p id="total-experience"></p></div>
+                                          <div class="_3WPZR" id="total-experience-back"></div>
                                        </div>
-                                       <div class="ZUgdC"><p id="total-experience"></p></div>
+                                       <div class="ZUgdC" id="total-experience"></div>
                                        <div class="_20Hj0"><span>years of professional experience</span></div>
                                     </div>
                                  </div>
@@ -1150,6 +1150,7 @@
          return yearDiff + '.' + monthDiff;
       }
       document.getElementById("total-experience").innerHTML = totalExperience();
+      document.getElementById("total-experience-back").innerHTML = totalExperience();
    </script>
 </body>
 
