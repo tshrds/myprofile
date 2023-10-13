@@ -1143,11 +1143,14 @@
    </div>
    <script>
       function totalExperience() {
-         const date2 = new Date('2015-07-13');
-         const monthDiff = new Date().getMonth() - date2.getMonth();
-         const yearDiff = new Date().getYear() - date2.getYear();
+         const doj = new Date('2015-07-13');
+         const monthDiff = new Date().getMonth() - doj.getMonth();
+         const yearDiff = new Date().getYear() - doj.getYear();
+         const totalMonths = (monthDiff + yearDiff * 12) / 12;
+         const finalYear = Math.floor(totalMonths);
+         const finalMonth = (totalMonths - finalYear) * 12;
 
-         return yearDiff + '.' + monthDiff;
+         return finalYear + '.' + finalMonth;
       }
       document.getElementById("total-experience").innerHTML = totalExperience();
       document.getElementById("total-experience-back").innerHTML = totalExperience();
