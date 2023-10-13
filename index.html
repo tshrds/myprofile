@@ -3,7 +3,6 @@
 
 <head>
    <script src="/content/scripts.js" type="text/javascript"></script>
-   <script src="/content/calculate-exp.js" type="text/javascript"></script>
    <meta name="viewport" content="width=device-width,initial-scale=1">
    <title>TUSHAR DAS, Senior Product Development Engineer, Bengaluru</title>
    <link rel="canonical" href="https://profile.wandererdroid.in" />
@@ -180,9 +179,9 @@
                                  <div class="_1C8rA">
                                     <div class="_1FYIv">
                                        <div class="_2LiuL">
-                                          <div class="_3WPZR">totalExperience()</div>
+                                          <div class="_3WPZR"><p id="total-experience"></p></div>
                                        </div>
-                                       <div class="ZUgdC">totalExperience()</div>
+                                       <div class="ZUgdC"><p id="total-experience"></p></div>
                                        <div class="_20Hj0"><span>years of professional experience</span></div>
                                     </div>
                                  </div>
@@ -1142,6 +1141,16 @@
          </div>
       </div>
    </div>
+   <script>
+      function totalExperience() {
+         const date2 = new Date('2015-07-13');
+         const monthDiff = new Date().getMonth() - date2.getMonth();
+         const yearDiff = new Date().getYear() - date2.getYear();
+
+         return yearDiff + '.' + monthDiff;
+      }
+      document.getElementById("total-experience").innerHTML = totalExperience();
+   </script>
 </body>
 
 </html>
