@@ -13,7 +13,7 @@
     <a href="https://linktr.ee/tshrds">
       <img src="https://img.shields.io/badge/LinkTree-1de9b6?style=for-the-badge&logo=linktree&logoColor=white" alt="LinkTree Badge"/>
     </a>
-    <a href="https://api.whatsapp.com/">
+    <a href="https://api.whatsapp.com/send?phone=917209748142&text=hi">
       <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp Badge"/>
     </a>
   </div>
