@@ -8,10 +8,21 @@
       <img src="https://img.shields.io/badge/Github-white?style=for-the-badge&logo=github&logoColor=black" alt="Github Badge"/>
     </a>
     <a href="https://profile.wandererdroid.in">
-      <img src="https://img.shields.io/badge/Profile-white?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NSIgaGVpZ2h0PSI5NCI+PHBhdGggZD0iTTE4LjkzMiA1MC4yMnMtMi4yNDYgMS4zNjcgMS41NjMgMS43NThjNC42LjU4NiA3LjAzMi40ODggMTIuMTEtLjQ4OCAwIDAgMS4zNjcuODggMy4yMjMgMS41NjNDMjQuNCA1Ny45MzYgOS45NDYgNTIuNzYgMTguOTMyIDUwLjIyem0tMS40NjUtNi4zNDhzLTIuNDQyIDEuODU2IDEuMzY3IDIuMjQ2YzQuOTguNDg4IDguODg4LjU4NiAxNS42MjctLjc4IDAgMCAuODguOTc3IDIuMzQ0IDEuNDY1LTEzLjc3IDQuMTAyLTI5LjIwMi4zOS0xOS4zMzgtMi45M3ptMjYuOTU2IDExLjEzNHMxLjY2IDEuMzY3LTEuODU2IDIuNDQyYy02LjU0NCAxLjk1My0yNy40NDQgMi41NC0zMy4zMDQgMC0yLjA1LS44OCAxLjg1Ni0yLjE1IDMuMTI1LTIuMzQ0IDEuMjctLjI5MyAxLjk1My0uMjkzIDEuOTUzLS4yOTMtMi4yNDYtMS41NjMtMTQuOTQzIDMuMjIzLTYuNDQ2IDQuNiAyMy4zNDIgMy44MSA0Mi41ODMtMS42NiAzNi41MjctNC4zOTV6TTIwLjAwNiAzNy4yM3MtMTAuNjQ2IDIuNTQtMy44MSAzLjQxOGMyLjkzLjM5IDguNjkyLjI5MyAxNC4wNjQtLjA5OCA0LjM5NS0uMzkgOC44LTEuMTcyIDguOC0xLjE3MnMtMS41NjMuNjg0LTIuNjM3IDEuMzY3QzI1LjU3MyA0My41OCA0Ljc3IDQyLjMxIDEwLjcyOCAzOS4zOGM1LjA4LTIuNDQyIDkuMjc4LTIuMTUgOS4yNzgtMi4xNXpNMzkuMDUgNDcuODc2YzEwLjk0LTUuNjY1IDUuODYtMTEuMTM0IDIuMzQ0LTEwLjQ1LS44OC4xOTUtMS4yNy4zOS0xLjI3LjM5cy4yOTMtLjU4Ni45NzctLjc4YzYuOTM0LTIuNDQyIDEyLjQwNCA3LjMyNS0yLjI0NiAxMS4xMzQgMCAwIC4wOTgtLjA5OC4xOTUtLjI5M3ptLTE3Ljk3IDE1LjQzYzEwLjU0OC42ODQgMjYuNjYzLS4zOSAyNy4wNTQtNS4zNzIgMCAwLS43OCAxLjk1My04LjY5MiAzLjQxOC04Ljk4NSAxLjY2LTIwLjEyIDEuNDY1LTI2LjY2My4zOSAwIDAgMS4zNjcgMS4xNzIgOC4zMDIgMS41NjN6IiBmaWxsPSIjNGU3ODk2Ii8+PHBhdGggZD0iTTMyLjQgNXM2LjA1NSA2LjE1My01Ljc2MiAxNS40M2MtOS40NzQgNy41Mi0yLjE1IDExLjgxOCAwIDE2LjctNS41NjctNC45OC05LjU3LTkuMzc2LTYuODM3LTEzLjQ3OEMyMy44MTUgMTcuNiAzNC44NSAxNC42NyAzMi40IDV6bS0zLjEyNSAyOC4wM2MyLjgzMiAzLjIyMy0uNzggNi4xNTMtLjc4IDYuMTUzczcuMjI3LTMuNzEgMy45MDctOC4zMDJjLTMuMDI4LTQuMzk1LTUuMzcyLTYuNTQ0IDcuMzI1LTEzLjg3IDAgMC0yMC4wMjIgNC45OC0xMC40NSAxNi4wMTd6IiBmaWxsPSIjZjU4MjE5Ii8+PHBhdGggZD0iTTI0LjIzNSA4NC4yMTV2LTkuNTdjMC0yLjQ0Mi0xLjM2Ny00LjEwMi00Ljc4Ni00LjEwMi0xLjk1MyAwLTMuNjE0LjQ4OC01LjA4IDEuMDc0bC40ODggMS43NThjMS4wNzQtLjM5IDIuNDQyLS43OCAzLjkwNy0uNzggMS44NTYgMCAyLjczNS43OCAyLjczNSAyLjM0NHYxLjI3aC0uOTc3Yy00LjY4OCAwLTYuODM3IDEuNzU4LTYuODM3IDQuNiAwIDIuMzQ0IDEuNDY1IDMuNzEgNC4xMDIgMy43MSAxLjY2IDAgMi45My0uNzggNC4xMDItMS43NThsLjE5NSAxLjQ2NWgyLjE1ek0yMS41IDgxLjA5Yy0uOTc3Ljg4LTIuMDUgMS4zNjctMy4wMjggMS4zNjctMS4yNyAwLTIuMDUtLjc4LTIuMDUtMi4xNXMuNzgtMi4zNDQgMy45MDctMi4zNDRIMjEuNXYzLjEyNXptMTEuOTE1IDMuMTI1aC0zLjQxOGwtNC4xMDItMTMuMzhoMi45M2wyLjU0IDguMjA0LjU4NiAyLjQ0MmMxLjI3LTMuNTE2IDIuMjQ2LTcuMTMgMi42MzctMTAuNjQ2aDIuOTNjLS43OCA0LjM5NS0yLjE1IDkuMTgtNC4xMDIgMTMuMzh6bTE1LjgyMiAwdi05LjU3YzAtMi40NDItMS4zNjctNC4xMDItNC43ODYtNC4xMDItMS45NTMgMC0zLjYxNC40ODgtNS4wOCAxLjA3NGwuMzkgMS43NThjMS4xNzItLjM5IDIuNTQtLjc4IDQuMDA0LS43OCAxLjg1NiAwIDIuNzM1Ljc4IDIuNzM1IDIuMzQ0djEuMjdoLS45NzdjLTQuNjg4IDAtNi44MzcgMS43NTgtNi44MzcgNC42IDAgMi4zNDQgMS4zNjcgMy43MSA0LjAwNCAzLjcxIDEuNzU4IDAgMy4wMjgtLjc4IDQuMi0xLjc1OGwuMTk1IDEuNDY1aDIuMTV6bS0yLjczNS0zLjEyNWMtLjk3Ny44OC0yLjA1IDEuMzY3LTMuMDI4IDEuMzY3LTEuMjcgMC0yLjA1LS43OC0yLjA1LTIuMTVzLjc4LTIuMzQ0IDMuOTA3LTIuMzQ0aDEuMTcydjMuMTI1ek0xMC42NiA4Ni40NmMtLjc4IDEuMTcyLTEuOTUzIDIuMDUtMy40MTggMi41NGwtMS4yNy0xLjU2M2MuOTc3LS41ODYgMS45NTMtMS40NjUgMi4zNDQtMi4yNDYuMzktLjY4NC40ODgtMS42Ni40ODgtMy45MDdWNjYuMDVoMi45M3YxNS4wNGMwIDMuMDI4LS4yOTMgNC4yLTEuMDc0IDUuMzcyeiIgZmlsbD0iIzRlNzg5NiIvPjwvc3ZnPg==" alt="Profile Badge"/>
+      <img src="https://img.shields.io/badge/Profile-black?style=for-the-badge&logo=openjdk&logoColor=white" alt="Profile Badge"/>
+    </a>
+    <a href="https://linktr.ee/tshrds">
+      <img src="https://img.shields.io/badge/LinkTree-1de9b6?style=for-the-badge&logo=linktree&logoColor=white" alt="LinkTree Badge"/>
+    </a>
+    <a href="https://api.whatsapp.com/">
+      <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp Badge"/>
     </a>
   </div>
-  <img src="https://komarev.com/ghpvc/?username=tshrds&style=flat-square&color=blue" alt=""/>
+  <div>
+    <a href="https://app.netlify.com/sites/tushar-das-resume/deploys">
+      <img src="https://api.netlify.com/api/v1/badges/9bdab598-90d7-4f3e-93a9-24f4287b63d9/deploy-status" alt="Netlify Status"/>
+    </a>
+    <img src="https://komarev.com/ghpvc/?username=tshrds&style=flat-square&color=blue" alt=""/>
+  </div>
   <h1>
     Hi there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
   </h1>
@@ -51,7 +62,7 @@ I am a Java Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW
   <img src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg" title="PostgreSQL"  alt="PostgreSQL" width="40" height="40"/>&nbsp;
   <img src="https://www.vectorlogo.zone/logos/snowflake/snowflake-icon.svg" title="Snowflake"  alt="Snowflake" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-original.svg" title="MongoDB"  alt="MongoDB" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/neo4j/neo4j-original-wordmark.svg" title="Neo4J"  alt="Neo4J" width="40" height="40"/>&nbsp;
+  <img src="https://www.vectorlogo.zone/logos/neo4j/neo4j-icon.svg" title="Neo4J"  alt="Neo4J" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original-wordmark.svg" title="NodeJS" alt="NodeJS" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/streamlit/streamlit-original.svg" title="Streamlit" alt="Streamlit" width="40" height="40"/>&nbsp;
   <img src="https://www.vectorlogo.zone/logos/databricks/databricks-icon.svg" title="Databricks"  alt="Databricks" width="40" height="40"/>&nbsp;
