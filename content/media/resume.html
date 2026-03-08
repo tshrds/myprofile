@@ -6,7 +6,6 @@
     <title>Tushar Das | Software Engineer</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
     <style>
         body {
             font-family: 'Inter', sans-serif;
@@ -121,37 +120,125 @@
             background-color: #1e3a8a;
             box-shadow: 0 6px 16px rgba(30, 64, 175, 0.6);
         }
-        /* PDF Download Button */
-        #pdfDownloadButton {
-            position: fixed;
-            top: 1rem;
-            right: 4.5rem;
-            z-index: 50;
-            width: 3rem;
-            height: 3rem;
-            border-radius: 50%;
-            background-color: #10b981;
-            color: white;
-            border: none;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4);
-            transition: all 0.3s ease;
-        }
-        #pdfDownloadButton:hover {
-            background-color: #059669;
-            box-shadow: 0 6px 16px rgba(16, 185, 129, 0.6);
-            transform: scale(1.1);
-        }
-        html.dark #pdfDownloadButton {
-            background-color: #047857;
-            box-shadow: 0 4px 12px rgba(4, 120, 87, 0.4);
-        }
-        html.dark #pdfDownloadButton:hover {
-            background-color: #065f46;
-            box-shadow: 0 6px 16px rgba(4, 120, 87, 0.6);
+        /* Print Styles for PDF */
+        @media print {
+            * {
+                margin: 0 !important;
+                padding: 0 !important;
+            }
+            html, body {
+                width: 100% !important;
+                height: 100% !important;
+                background: white !important;
+                color: #1e293b !important;
+            }
+            body {
+                padding: 10mm !important;
+                font-size: 11px !important;
+                line-height: 1.2 !important;
+            }
+            .max-w-6xl {
+                max-width: 100% !important;
+            }
+            .lg\:col-span-4 {
+                display: block !important;
+                width: 30% !important;
+                float: left !important;
+                margin-right: 3% !important;
+            }
+            .lg\:col-span-8 {
+                display: block !important;
+                width: 67% !important;
+                float: left !important;
+            }
+            .section-card {
+                background: white !important;
+                box-shadow: none !important;
+                border: 1px solid #e2e8f0 !important;
+                margin-bottom: 0.5rem !important;
+                padding: 0.75rem !important;
+                page-break-inside: avoid !important;
+            }
+            .skill-tag {
+                background-color: #f1f5f9 !important;
+                color: #475569 !important;
+                padding: 0.15rem 0.5rem !important;
+                margin: 0.1rem !important;
+                font-size: 10px !important;
+            }
+            .experience-border {
+                border-left: 1px solid #d1d5db !important;
+                padding-left: 0.75rem !important;
+                margin-bottom: 0.5rem !important;
+            }
+            .gap-8 {
+                gap: 0 !important;
+            }
+            .space-y-6 > * + * {
+                margin-top: 0.5rem !important;
+            }
+            .space-y-3 > * + * {
+                margin-top: 0.3rem !important;
+            }
+            .space-y-2 > * + * {
+                margin-top: 0.2rem !important;
+            }
+            .mb-8 {
+                margin-bottom: 0.5rem !important;
+            }
+            .mb-6 {
+                margin-bottom: 0.4rem !important;
+            }
+            .mb-4 {
+                margin-bottom: 0.3rem !important;
+            }
+            .mb-2 {
+                margin-bottom: 0.2rem !important;
+            }
+            h1 {
+                font-size: 18px !important;
+                margin-bottom: 0.3rem !important;
+            }
+            h2 {
+                font-size: 13px !important;
+                margin-bottom: 0.4rem !important;
+            }
+            h3 {
+                font-size: 12px !important;
+                margin-bottom: 0.2rem !important;
+            }
+            p {
+                margin-bottom: 0.2rem !important;
+            }
+            ul {
+                padding-left: 1.2rem !important;
+                margin-bottom: 0.3rem !important;
+            }
+            li {
+                margin-bottom: 0.1rem !important;
+                font-size: 10px !important;
+            }
+            svg {
+                display: none !important;
+            }
+            #pdfDownloadButton, #darkModeToggle, footer {
+                display: none !important;
+            }
+            .text-3xl {
+                font-size: 18px !important;
+            }
+            .text-xl {
+                font-size: 13px !important;
+            }
+            .text-lg {
+                font-size: 12px !important;
+            }
+            .text-sm {
+                font-size: 11px !important;
+            }
+            .text-xs {
+                font-size: 10px !important;
+            }
         }
     </style>
 </head>
@@ -182,7 +269,7 @@
                         tshrds
                     </div>
                     <div class="flex items-center justify-center lg:justify-start gap-3">
-                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/></svg>
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9-3-9m-9 9a9 9 0 019-9"/></svg>
                         profile.wandererdroid.in
                     </div>
                 </div>
@@ -380,12 +467,6 @@
         &copy; 2026 Tushar Das — Software Engineer
     </footer>
 
-    <button id="pdfDownloadButton" aria-label="Download as PDF">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
-        </svg>
-    </button>
-
     <button id="darkModeToggle" aria-label="Toggle Dark Mode">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m8.485-8.485h-1M4.515 12h-1m15.364-6.364l-.707.707M6.343 17.657l-.707.707m12.728 0l-.707-.707M6.343 6.343l-.707-.707M12 5a7 7 0 100 14 7 7 0 000-14z" />
@@ -393,42 +474,9 @@
     </button>
 
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // Dark mode toggle
-            const toggleButton = document.getElementById('darkModeToggle');
-            if (toggleButton) {
-                toggleButton.addEventListener('click', () => {
-                    document.documentElement.classList.toggle('dark');
-                });
-            }
-
-            // PDF download functionality
-            const pdfButton = document.getElementById('pdfDownloadButton');
-            if (pdfButton) {
-                pdfButton.addEventListener('click', () => {
-                    const element = document.documentElement;
-                    const opt = {
-                        margin: 10,
-                        filename: 'Tushar_Das_Resume.pdf',
-                        image: { type: 'jpeg', quality: 0.98 },
-                        html2canvas: { scale: 2 },
-                        jsPDF: { orientation: 'portrait', unit: 'mm', format: 'a4' }
-                    };
-                    
-                    // Temporarily remove dark mode for PDF export
-                    const isDarkMode = document.documentElement.classList.contains('dark');
-                    if (isDarkMode) {
-                        document.documentElement.classList.remove('dark');
-                    }
-                    
-                    html2pdf().set(opt).from(element).save().then(() => {
-                        // Restore dark mode if it was enabled
-                        if (isDarkMode) {
-                            document.documentElement.classList.add('dark');
-                        }
-                    });
-                });
-            }
+        // Simple dark mode toggle
+        document.getElementById('darkModeToggle').addEventListener('click', function() {
+            document.documentElement.classList.toggle('dark');
         });
     </script>
 </body>
